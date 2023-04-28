@@ -30,7 +30,7 @@ export const AndroidLarge4: FC<Props> = memo(function AndroidLarge4(props = {}) 
         <div className={classes.frame12}>
           <div className={classes.rectangle12}></div>
           <div className={classes.beECO2}>BeECO</div>
-          <div className={classes.icon3} onClick={() => navigate("/3")}>
+          <div className={classes.icon3} onClick={() => navigate("/2")}>
             <Frame1Icon2 className={classes.icon4} />
           </div>
         </div>
