@@ -7,18 +7,22 @@ import { Button_ConfigurationFilledStat } from './Button_ConfigurationFilledStat
 import { Collapse_light } from './Collapse_light/Collapse_light';
 import { Filter } from './Filter/Filter';
 import { IconsMenu_24px } from './IconsMenu_24px/IconsMenu_24px';
-import { IconsMenu_24pxIcon2 } from './IconsMenu_24pxIcon2.js';
 import { IconsMenu_24pxIcon } from './IconsMenu_24pxIcon.js';
 import { SearchBar_StateEnabledShowAvat } from './SearchBar_StateEnabledShowAvat/SearchBar_StateEnabledShowAvat';
+import { StateLayerIcon } from './StateLayerIcon.js';
+import { useNavigate } from 'react-router-dom';
 
 interface Props {
   className?: string;
   hide?: {
+    icon?: boolean;
     leadingIcon?: boolean;
   };
 }
 /* @figmaId 33:197 */
 export const AndroidLarge5: FC<Props> = memo(function AndroidLarge5(props = {}) {
+  let navigate = useNavigate();
+
   return (
     <div className={`${resets.storybrainResets} ${classes.root}`}>
       <div className={classes.frame1}>
@@ -38,9 +42,12 @@ export const AndroidLarge5: FC<Props> = memo(function AndroidLarge5(props = {}) 
           <div className={classes.beECO2}>BeECO</div>
           <div className={classes.container2}>
             <div className={classes.stateLayer2}>
+              <div className={classes.icon2} onClick={() => navigate("/")}>
+                <StateLayerIcon className={classes.icon3} />
+              </div>
               <IconsMenu_24px
-                swap={{
-                  icon: <IconsMenu_24pxIcon2 className={classes.icon2} />,
+                hide={{
+                  icon: true,
                 }}
               />
             </div>
