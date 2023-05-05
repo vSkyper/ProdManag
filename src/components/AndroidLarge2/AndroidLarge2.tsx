@@ -21,7 +21,7 @@ export const AndroidLarge2: FC<Props> = memo(function AndroidLarge2(props = {}) 
   let navigate = useNavigate();
 
   return (
-    <div className={`${resets.storybrainResets} ${classes.root}`}>
+    <div className={`${resets.storybrainResets} ${classes.root}`} style={{ "borderStyle": "solid", "margin": 10 }}>
       <div className={classes.dostepneNagrody}>Dostępne nagrody</div>
       <div className={classes.masz1337Punktow}>
         <p className={classes.labelWrapper}>

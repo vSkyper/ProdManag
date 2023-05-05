@@ -15,7 +15,7 @@ export const AndroidLarge4: FC<Props> = memo(function AndroidLarge4(props = {}) 
   let navigate = useNavigate();
 
   return (
-    <div className={`${resets.storybrainResets} ${classes.root}`}>
+    <div className={`${resets.storybrainResets} ${classes.root}`} style={{ "borderStyle": "solid", "margin": 10 }}>
       <div className={classes.aktywowanoNagrode}>Aktywowano nagrodę</div>
       <div className={classes.wykorzystajPrzed}>Wykorzystaj przed:</div>
       <div className={classes.frame1}>

@@ -24,7 +24,7 @@ export const AndroidLarge5: FC<Props> = memo(function AndroidLarge5(props = {}) 
   let navigate = useNavigate();
 
   return (
-    <div className={`${resets.storybrainResets} ${classes.root}`}>
+    <div className={`${resets.storybrainResets} ${classes.root}`} style={{ "borderStyle": "solid", "margin": 10 }}>
       <div className={classes.frame1}>
         <div className={classes.rectangle1}></div>
         <div className={classes.beECO}>BeECO</div>

@@ -17,7 +17,7 @@ export const AndroidLarge1: FC<Props> = memo(function AndroidLarge1(props = {}) 
   let navigate = useNavigate();
 
   return (
-    <div className={`${resets.storybrainResets} ${classes.root}`}>
+    <div className={`${resets.storybrainResets} ${classes.root}`} style={{ "borderStyle": "solid", "margin": 10 }}>
       <div onClick={() => navigate("/2")}>
         <Button_ConfigurationFilledStat
           className={classes.button}
