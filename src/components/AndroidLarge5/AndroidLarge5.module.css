@@ -1,8 +1,16 @@
+.icon {
+  width: 100%;
+  height: 100%;
+}
+.icon2 {
+  width: 100%;
+  height: 100%;
+}
 .searchBar.searchBar {
-  left: 4.4444%;
-  right: 4.4444%;
-  top: 20.875%;
-  bottom: 72.125%;
+  left: 4.1667%;
+  right: 4.7222%;
+  top: 21.875%;
+  bottom: 71.125%;
   background-color: #efffef, #fffbfe;
 }
 .w {
@@ -17,9 +25,17 @@
   white-space: nowrap;
   flex-direction: column;
 }
+.filter.filter {
+  left: 25px;
+  top: 287px;
+}
+.collapse_light.collapse_light {
+  left: 253px;
+  top: 263px;
+}
 .button.button {
-  left: 171px;
-  top: 371px;
+  left: 170px;
+  top: 379px;
   background-color: #c2ffc0;
   box-shadow: initial;
 }
@@ -39,8 +55,8 @@
   flex-direction: column;
 }
 .button2.button2 {
-  left: 171px;
-  top: 503px;
+  left: 170px;
+  top: 511px;
   background-color: #c2ffc0;
   box-shadow: initial;
 }
@@ -60,8 +76,8 @@
   flex-direction: column;
 }
 .button3.button3 {
-  left: 88px;
-  top: 728px;
+  left: 105px;
+  top: 163px;
   background-color: #c2ffc0;
   box-shadow: initial;
 }
@@ -87,57 +103,6 @@
   align-items: flex-start;
   background-color: #fff;
   overflow: hidden;
-}
-.dostepneNagrody {
-  color: #000;
-  font-size: 25px;
-  font-weight: bold;
-  font-family: Inter, system-ui, -apple-system, 'Segoe UI', Roboto, 'Helvetica Neue', Arial, 'Noto Sans',
-    'Liberation Sans', sans-serif;
-  position: absolute;
-  left: 17px;
-  top: 75px;
-  width: min-content;
-  height: min-content;
-  text-align: center;
-  align-items: center;
-  white-space: nowrap;
-  flex-direction: column;
-}
-.masz1337Punktow {
-  position: absolute;
-  left: 17px;
-  top: 105px;
-  width: min-content;
-  height: min-content;
-  text-align: center;
-  align-items: center;
-  white-space: nowrap;
-  flex-direction: column;
-}
-.labelWrapper {
-  font-size: 25px;
-  font-family: Inter, system-ui, -apple-system, 'Segoe UI', Roboto, 'Helvetica Neue', Arial, 'Noto Sans',
-    'Liberation Sans', sans-serif;
-  flex-shrink: 1;
-}
-.label {
-  color: #000;
-  font-size: 25px;
-  font-family: Inter, system-ui, -apple-system, 'Segoe UI', Roboto, 'Helvetica Neue', Arial, 'Noto Sans',
-    'Liberation Sans', sans-serif;
-}
-.label2 {
-  color: #0db007;
-  font-size: 25px;
-  font-family: Inter, system-ui, -apple-system, 'Segoe UI', Roboto, 'Helvetica Neue', Arial, 'Noto Sans',
-    'Liberation Sans', sans-serif;
-}
-.label3 {
-  color: #000;
-  font-size: 25px;
-  font-family: Inter, system-ui, -apple-system, 'Segoe UI', Roboto, 'Helvetica Neue', Arial, 'Noto Sans',
-    'Liberation Sans', sans-serif;
 }
 .frame1 {
   position: absolute;
@@ -171,17 +136,118 @@
   white-space: nowrap;
   flex-direction: column;
 }
-.icon {
+.container {
   position: absolute;
-  left: 4.4444%;
-  right: 91.1111%;
-  top: 35.8491%;
-  bottom: 33.9623%;
-  overflow: visible;
+  left: 10px;
+  top: 7px;
+  width: min-content;
+  height: min-content;
+  border-radius: 100px;
+  overflow: hidden;
 }
-.icon2 {
-  width: 100%;
-  height: 100%;
+.stateLayer {
+  width: min-content;
+  height: min-content;
+  align-self: flex-start;
+  padding: 8px;
+}
+.frame12 {
+  position: absolute;
+  left: 0;
+  top: 0;
+  width: 360px;
+  height: 53px;
+  align-items: flex-start;
+  overflow: hidden;
+}
+.rectangle12 {
+  position: absolute;
+  left: 0;
+  top: 0;
+  width: 360px;
+  height: 53px;
+  background-color: #c2ffc0;
+}
+.beECO2 {
+  color: #000;
+  font-size: 25px;
+  font-family: Inter, system-ui, -apple-system, 'Segoe UI', Roboto, 'Helvetica Neue', Arial, 'Noto Sans',
+    'Liberation Sans', sans-serif;
+  position: absolute;
+  left: 139px;
+  top: 12px;
+  width: min-content;
+  height: min-content;
+  text-align: center;
+  align-items: center;
+  white-space: nowrap;
+  flex-direction: column;
+}
+.container2 {
+  position: absolute;
+  left: 10px;
+  top: 7px;
+  width: min-content;
+  height: min-content;
+  border-radius: 100px;
+  overflow: hidden;
+}
+.stateLayer2 {
+  width: min-content;
+  height: min-content;
+  align-self: flex-start;
+  padding: 8px;
+}
+.dostepneNagrody {
+  color: #000;
+  font-size: 25px;
+  font-weight: bold;
+  font-family: Inter, system-ui, -apple-system, 'Segoe UI', Roboto, 'Helvetica Neue', Arial, 'Noto Sans',
+    'Liberation Sans', sans-serif;
+  position: absolute;
+  left: 16px;
+  top: 83px;
+  width: min-content;
+  height: min-content;
+  text-align: center;
+  align-items: center;
+  white-space: nowrap;
+  flex-direction: column;
+}
+.masz1337Punktow {
+  position: absolute;
+  left: 16px;
+  top: 113px;
+  width: min-content;
+  height: min-content;
+  text-align: center;
+  align-items: center;
+  white-space: nowrap;
+  flex-direction: column;
+}
+.labelWrapper {
+  font-size: 25px;
+  font-family: Inter, system-ui, -apple-system, 'Segoe UI', Roboto, 'Helvetica Neue', Arial, 'Noto Sans',
+    'Liberation Sans', sans-serif;
+  flex-shrink: 1;
+}
+.label {
+  color: #000;
+  font-size: 25px;
+  font-family: Inter, system-ui, -apple-system, 'Segoe UI', Roboto, 'Helvetica Neue', Arial, 'Noto Sans',
+    'Liberation Sans', sans-serif;
+}
+.label2 {
+  color: #0db007;
+  font-size: 25px;
+  font-family: Inter, system-ui, -apple-system, 'Segoe UI', Roboto, 'Helvetica Neue', Arial, 'Noto Sans',
+    'Liberation Sans', sans-serif;
+}
+.label3 {
+  color: #000;
+  font-size: 25px;
+  font-family: Inter, system-ui, -apple-system, 'Segoe UI', Roboto, 'Helvetica Neue', Arial, 'Noto Sans',
+    'Liberation Sans', sans-serif;
 }
 .fi {
   color: #000;
@@ -191,8 +257,8 @@
     'Liberation Sans', sans-serif;
   letter-spacing: 0.5px;
   position: absolute;
-  left: 62px;
-  top: 253px;
+  left: 61px;
+  top: 261px;
   width: min-content;
   height: min-content;
   white-space: nowrap;
@@ -206,20 +272,20 @@
     'Liberation Sans', sans-serif;
   letter-spacing: 0.5px;
   position: absolute;
-  left: 284px;
-  top: 255px;
+  left: 283px;
+  top: 263px;
   width: min-content;
   height: min-content;
   white-space: nowrap;
   flex-direction: column;
 }
-.image2 {
+.image5 {
   position: absolute;
-  left: 26px;
-  top: 308px;
+  left: 25px;
+  top: 316px;
   width: 87.0482px;
   height: 85px;
-  background-image:/* webpackIgnore: true */ url('/assets/image2.jpg');
+  background-image:/* webpackIgnore: true */ url('/assets/image5.jpg');
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
@@ -227,8 +293,8 @@
 .divider {
   transform-origin: bottom left;
   position: absolute;
-  left: 1px;
-  top: 295px;
+  left: 0;
+  top: 303px;
   width: 360px;
   max-width: 100%;
   height: 0;
@@ -240,8 +306,8 @@
 .divider2 {
   transform-origin: bottom left;
   position: absolute;
-  left: 0;
-  top: 420px;
+  left: -1px;
+  top: 428px;
   width: 360px;
   max-width: 100%;
   height: 0;
@@ -257,8 +323,8 @@
   font-family: Inter, system-ui, -apple-system, 'Segoe UI', Roboto, 'Helvetica Neue', Arial, 'Noto Sans',
     'Liberation Sans', sans-serif;
   position: absolute;
-  left: 95px;
-  top: 309px;
+  left: 94px;
+  top: 317px;
   width: 249px;
   height: 23px;
   text-align: center;
@@ -272,8 +338,8 @@
   font-family: Inter, system-ui, -apple-system, 'Segoe UI', Roboto, 'Helvetica Neue', Arial, 'Noto Sans',
     'Liberation Sans', sans-serif;
   position: absolute;
-  left: 95px;
-  top: 436px;
+  left: 94px;
+  top: 444px;
   width: 249px;
   height: 23px;
   text-align: center;
@@ -287,8 +353,8 @@
   font-family: Inter, system-ui, -apple-system, 'Segoe UI', Roboto, 'Helvetica Neue', Arial, 'Noto Sans',
     'Liberation Sans', sans-serif;
   position: absolute;
-  left: 95px;
-  top: 342px;
+  left: 94px;
+  top: 350px;
   width: 249px;
   height: 18px;
   text-align: center;
@@ -298,8 +364,8 @@
 .divider3 {
   transform-origin: bottom left;
   position: absolute;
-  left: 0;
-  top: 552px;
+  left: -1px;
+  top: 560px;
   width: 360px;
   max-width: 100%;
   height: 0;
@@ -308,44 +374,100 @@
   margin-bottom: -1px;
   transform: matrix(1, 0, 0, 1, 0, 0);
 }
-._1h300Pkt {
+._10200Pkt2 {
   color: #000;
   font-size: 15px;
   font-weight: 300;
   font-family: Inter, system-ui, -apple-system, 'Segoe UI', Roboto, 'Helvetica Neue', Arial, 'Noto Sans',
     'Liberation Sans', sans-serif;
   position: absolute;
-  left: 95px;
-  top: 474px;
+  left: 94px;
+  top: 482px;
   width: 249px;
   height: 18px;
   text-align: center;
   align-items: center;
   flex-direction: column;
 }
-.image3 {
+.image6 {
   position: absolute;
-  left: 26px;
-  top: 450px;
+  left: 25px;
+  top: 458px;
   width: 84.0341px;
   height: 85px;
-  background-image:/* webpackIgnore: true */ url('/assets/image3.jpg');
+  background-image:/* webpackIgnore: true */ url('/assets/image6.jpg');
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
 }
-.jestesFirmaIChceszOferowacZniz {
+.rectangle3 {
+  position: absolute;
+  left: 13px;
+  top: 71px;
+  width: 330px;
+  height: 591px;
+  outline: solid 1px #000;
+  outline-offset: -1px;
+  border-radius: 20px;
+  background-color: #f3f0f5;
+  box-shadow: 0px 4px 4px 0px #00000040;
+}
+.nieChceszReklam {
   color: #000;
   font-size: 25px;
   font-weight: bold;
   font-family: Inter, system-ui, -apple-system, 'Segoe UI', Roboto, 'Helvetica Neue', Arial, 'Noto Sans',
     'Liberation Sans', sans-serif;
   position: absolute;
-  left: 21px;
-  top: 650px;
-  width: 317px;
+  left: 53px;
+  top: 121px;
+  width: min-content;
   height: min-content;
   text-align: center;
   align-items: center;
+  white-space: nowrap;
+  flex-direction: column;
+}
+.jedyne20Dozywotnio {
+  color: #000;
+  font-size: 20px;
+  font-weight: bold;
+  font-family: Inter, system-ui, -apple-system, 'Segoe UI', Roboto, 'Helvetica Neue', Arial, 'Noto Sans',
+    'Liberation Sans', sans-serif;
+  position: absolute;
+  left: 43px;
+  top: 238px;
+  width: 249px;
+  height: 23px;
+  text-align: center;
+  align-items: center;
+  flex-direction: column;
+}
+.regulaminUsUgi {
+  color: #000;
+  font-size: 20px;
+  font-weight: bold;
+  font-family: Inter, system-ui, -apple-system, 'Segoe UI', Roboto, 'Helvetica Neue', Arial, 'Noto Sans',
+    'Liberation Sans', sans-serif;
+  position: absolute;
+  left: 50px;
+  top: 306px;
+  width: 249px;
+  height: 23px;
+  text-align: center;
+  align-items: center;
+  flex-direction: column;
+}
+.loremIpsumDolorSitAmetConsecte {
+  color: #000;
+  font-size: 15px;
+  font-weight: 100;
+  font-family: Inter, system-ui, -apple-system, 'Segoe UI', Roboto, 'Helvetica Neue', Arial, 'Noto Sans',
+    'Liberation Sans', sans-serif;
+  position: absolute;
+  left: 29px;
+  top: 346px;
+  width: 295px;
+  height: 288px;
   flex-direction: column;
 }

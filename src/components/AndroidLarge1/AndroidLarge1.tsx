@@ -26,8 +26,17 @@ export const AndroidLarge1: FC<Props> = memo(function AndroidLarge1(props = {}) 
           }}
         />
       </div>
+      <div onClick={() => navigate("/5")}>
+        <Button_ConfigurationFilledStat
+          className={classes.button2}
+          text={{
+            labelText: <div className={classes.labelText2}>Kup Premium</div>,
+          }}
+        />
+      </div>
       <div className={classes.hejJan}>Hej Jan!</div>
       <div className={classes.twojeZadania}>Twoje zadania:</div>
+      <div className={classes.nieChceszReklam}>Nie chcesz reklam?</div>
       <div className={classes.masz1337Punktow}>
         <p className={classes.labelWrapper}>
           <span className={classes.label}>Masz </span>
@@ -65,6 +74,6 @@ export const AndroidLarge1: FC<Props> = memo(function AndroidLarge1(props = {}) 
       <div className={classes.posprzatajLas}>Posprzątaj las</div>
       <div className={classes.divider}></div>
       <div className={classes.divider2}></div>
-    </div>
+    </div >
   );
 });

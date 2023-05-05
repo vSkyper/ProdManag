@@ -13,6 +13,7 @@ import { AndroidLarge3 } from './components/AndroidLarge3/AndroidLarge3';
 import { AndroidLarge1 } from './components/AndroidLarge1/AndroidLarge1';
 import { AndroidLarge2 } from './components/AndroidLarge2/AndroidLarge2';
 import { AndroidLarge4 } from './components/AndroidLarge4/AndroidLarge4';
+import { AndroidLarge5 } from './components/AndroidLarge5/AndroidLarge5';
 
 interface Props {
   className?: string;
@@ -26,6 +27,7 @@ export const App: FC<Props> = memo(function App(props = {}) {
           <Route path="/2" element={<AndroidLarge2 />} />
           <Route path="/3" element={<AndroidLarge3 />} />
           <Route path="/4" element={<AndroidLarge4 />} />
+          <Route path="/5" element={<AndroidLarge5 />} />
         </Routes>
       </Router>
     </div>

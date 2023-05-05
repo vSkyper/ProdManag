@@ -75,6 +75,13 @@ export const AndroidLarge2: FC<Props> = memo(function AndroidLarge2(props = {}) 
         />
       </div>
       <div className={classes.image3}></div>
-    </div>
+      <div className={classes.jestesFirmaIChceszOferowacZniz}>Jesteś firmą i chcesz oferować zniżki?</div>
+      <Button_ConfigurationFilledStat
+        className={classes.button3}
+        text={{
+          labelText: <div className={classes.labelText3}>Skontaktuj się z nami</div>,
+        }}
+      />
+    </div >
   );
 });
